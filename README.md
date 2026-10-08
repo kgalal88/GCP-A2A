@@ -292,11 +292,24 @@ This tests the complete end-to-end multi-agent system running in Cloud Run:
 
 Test the travel agent (Directly through the FastAPI wrapper deployed on Cloud Run):
 1. Generate a token
-   <img width="1185" height="656" alt="image" src="https://github.com/user-attachments/assets/673caee5-e732-4336-89dd-de09f16e37d0" />
+   <img width="1209" height="624" alt="image" src="https://github.com/user-attachments/assets/ab122cab-81e0-48ee-ad5d-75fd8d6faa91" />
 2. Create an agent session
-   <img width="1205" height="690" alt="image" src="https://github.com/user-attachments/assets/6af419bd-a4bb-4e9b-853a-e323022f3303" />
+   <img width="1200" height="720" alt="image" src="https://github.com/user-attachments/assets/d7b612d9-8fbf-4b31-b569-e51630ceb8be" />
 3. Run the travel agent
    <img width="1196" height="715" alt="image" src="https://github.com/user-attachments/assets/946017e6-e729-4049-8f3f-13951785eb82" />
+
+---
+
+## 🚀 Related Medium Article
+https://medium.com/@khalid.mtwaly/building-an-ai-powered-mcp-application-with-spring-ai-ollama-and-model-context-protocol-mcp-89f2eb6e9dc3
+
+---
+
+## 👤 Author
+
+**Khalid Galal**
+
+**https://www.linkedin.com/in/khalidgalal**
 
 
 
