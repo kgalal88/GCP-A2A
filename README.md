@@ -41,9 +41,8 @@ ADK is used as the orchestration framework for creating our agents in this sampl
 
 The system consists of 1 orchestrating agent with Web UI, 1 remote agent via A2A, 1 local agent tool, and 1 MCP server:
 
-```
 <img width="8192" height="4115" alt="MCP Server Interaction Flow-2026-10-08-231532" src="https://github.com/user-attachments/assets/8b56a47c-5da3-4b17-90e6-33afc7c5ce3e" />
-```
+
 
 ### Key Components
 
