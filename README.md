@@ -42,35 +42,7 @@ ADK is used as the orchestration framework for creating our agents in this sampl
 The system consists of 1 orchestrating agent with Web UI, 1 remote agent via A2A, 1 local agent tool, and 1 MCP server:
 
 ```
-+-----------------------------------------------------------------------------------+
-|                                  Clients                                          |
-|                     ADK Web UI (Browser)  |  HTTP Callers                         |
-+------------------------------------------+----------------------------------------+
-                                           | (HTTP / Web UI)
-                                           v
-+-----------------------------------------------------------------------------------+
-| travel_agent (Port 8082 / Cloud Run)                                              |
-| - Orchestrating ADK Agent serving the ADK Web UI                                  |
-|                                                                                   |
-|   +--> [Local AgentTool] weather_agent (travel_agent/subagents/weather_agent.py)  |
-|        - Directly wrapped as AgentTool (no A2A network overhead)                  |
-|        - Live weather tool via wttr.in API with fallback                          |
-|   +--> [Remote AgentTool] currency_agent                                          |
-|        - Communicates over A2A protocol                                           |
-+------------------------------------------+----------------------------------------+
-                                           | (A2A Protocol / JSON-RPC)
-                                           v
-+-----------------------------------------------------------------------------------+
-| currency_agent (Port 8081 / Cloud Run)                                            |
-| - Specialized ADK Agent exposed via A2A (to_a2a)                                  |
-| - Consumes get_exchange_rate tool via FastMCP Streamable HTTP client              |
-+------------------------------------------+----------------------------------------+
-                                           | (MCP Streamable HTTP /mcp)
-                                           v
-+-----------------------------------------------------------------------------------+
-| currency_mcp_server (Port 8080 / Cloud Run)                                       |
-| - FastMCP server providing real-time exchange rates via Frankfurter API           |
-+-----------------------------------------------------------------------------------+
+<img width="8192" height="4115" alt="MCP Server Interaction Flow-2026-10-08-231532" src="https://github.com/user-attachments/assets/8b56a47c-5da3-4b17-90e6-33afc7c5ce3e" />
 ```
 
 ### Key Components
