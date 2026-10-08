@@ -255,6 +255,16 @@ echo "Travel Agent URL: $TRAVEL_AGENT_URL"
 >   --env CURRENCY_AGENT_URL="$CURRENCY_AGENT_URL"
 > ```
 
+### 4. Deploy FastApi Proxy Service
+```bash
+gcloud run deploy fastapi-travel-proxy \
+ --source fastapi-travel-proxy \
+ --region $REGION \
+ --allow-unauthenticated \
+ --service-account a2a-service-account@gen-lang-client-0903142317.iam.gserviceaccount.com \
+ --update-env-vars GOOGLE_CLOUD_PROJECT="$PROJECT_ID",GOOGLE_CLOUD_LOCATION="global"
+```
+
 ### 🧪 Testing
 
 Test the MCP server:
