@@ -309,10 +309,3 @@ This tests the complete end-to-end multi-agent system running in Cloud Run:
 3. Remote A2A invocation across Cloud Run to `currency-agent`.
 4. Remote MCP invocation across Cloud Run to `currency-mcp-server`.
 
----
-
-## 📄 License
-
-This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
-# GCP-A2A
-# GCP-A2A
