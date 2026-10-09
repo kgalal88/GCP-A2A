@@ -289,7 +289,7 @@ This tests the complete end-to-end multi-agent system running in Cloud Run:
 3. Remote A2A invocation across Cloud Run to `currency-agent`.
 4. Remote MCP invocation across Cloud Run to `currency-mcp-server`.
 
-Test the travel agent (Directly through the FastAPI Gateway/Wapper deployed on Cloud Run):
+Test the travel agent (Directly through the FastAPI Gateway/Wrapper deployed on Google Cloud Run):
 1. Generate a token
    <img width="1209" height="624" alt="image" src="https://github.com/user-attachments/assets/ab122cab-81e0-48ee-ad5d-75fd8d6faa91" />
 2. Create an agent session
