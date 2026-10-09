@@ -300,7 +300,7 @@ Test the travel agent (Directly through the FastAPI wrapper deployed on Cloud Ru
 ---
 
 ## 🚀 Related Medium Article
-https://medium.com/@khalid.mtwaly/building-an-ai-powered-mcp-application-with-spring-ai-ollama-and-model-context-protocol-mcp-89f2eb6e9dc3
+https://medium.com/@khalid.mtwaly/building-scalable-multi-agent-systems-combining-adk-a2a-protocol-and-mcp-d2c36cb371f4
 
 ---
 
