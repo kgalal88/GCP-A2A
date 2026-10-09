@@ -295,7 +295,8 @@ Test the travel agent (Directly through the FastAPI Gateway/Wrapper deployed on 
 2. Create an agent session
    <img width="1200" height="720" alt="image" src="https://github.com/user-attachments/assets/d7b612d9-8fbf-4b31-b569-e51630ceb8be" />
 3. Run the travel agent
-   <img width="1196" height="715" alt="image" src="https://github.com/user-attachments/assets/946017e6-e729-4049-8f3f-13951785eb82" />
+   <img width="1211" height="725" alt="image" src="https://github.com/user-attachments/assets/970771a6-6f4a-44a1-95ca-ccdd17e769c5" />
+
 
 ---
 
